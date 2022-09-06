@@ -23,9 +23,10 @@ jobs:
         with:
           submodules: true
 
-      - uses: pnpm/action-setup@v2.2.2
-      with:
-        version: 7
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7
 
       - name: Setup Node
         uses: actions/setup-node@v3
