@@ -37,6 +37,12 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Sync posts
+        run: node sync.mjs
+        env:
+          GH_REPO: jinan36/blog
+          GH_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+
       - name: Hexo build
         run: pnpm run build
 
