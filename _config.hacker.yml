@@ -4,3 +4,17 @@ menu:
   About: /about.html
 
 googleTrackId: G-LL017RHM9G
+
+giscus: true
+data_repo: jinan36/jinan36.github.io
+data_repo_id: R_kgDOH8cUBQ
+data_category: Announcements
+data_category_id: DIC_kwDOH8cUBc4CRQLU
+data_mapping: og:title
+data_strict: 1
+data_reactions_enabled: 1
+data_emit_metadata: 0
+data_input_position: top
+data_theme: preferred_color_scheme
+data_lang: zh-CN
+data_loading:
