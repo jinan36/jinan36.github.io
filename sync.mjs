@@ -30,7 +30,7 @@ while (true) {
 console.log(`Fetched ${issues.length} posts`);
 
 const postsDir = resolve('source', '_posts');
-for (const issue of issue) {
+for (const issue of issues) {
     const frontMatter = JSON.stringify({
         title: issue.title,
         date: DateTime.fromISO(issue.created_at).toFormat('y/M/d HH:mm:ss'),
