@@ -329,7 +329,7 @@ comment:
     gitalk:
         clientID: 278eb33298f805096c4b
         clientSecret: d667660c25d1ebdee5c3d6ba758a227b0b5fe907
-        repo: jinan36/jinan36.github.io
+        repo: jinan36.github.io
         owner: jinan36
         admin: ['jinan36']
         language: zh-CN
