@@ -13,7 +13,7 @@ global:
 
     # 用于浏览器标签的图标
     # Icon for browser tab
-    favicon:
+    favicon: ./favicon.ico
 
     # 用于苹果设备的图标
     # Icon for Apple touch
@@ -25,7 +25,7 @@ global:
 
     # 导航栏左侧的标题，为空则按 hexo config 中 `title` 显示
     # The title on the left side of the navigation bar. If empty, it is based on `title` in hexo config
-    nav_title: "Theme Miracle"
+    nav_title: "jinan36's BLOG"
 
     # 浏览器标签页中的标题分隔符，效果： 文章名 - 站点名
     # Title separator in browser tab, eg: article - site
@@ -52,7 +52,7 @@ global:
         # Google 统计的 Tracking ID
         # Google analytics, set Tracking ID
         # See: https://developers.google.com/analytics/devguides/collection/analyticsjs
-        google:
+        google: G-LL017RHM9G
         
         # 51.la 站点统计 ID
         # 51.la analytics
@@ -77,11 +77,11 @@ global:
         enable: true
         # 开始年份，不填不显示
         # Start year, no display if not filled.
-        from_year: 2020
+        from_year:
         # 结束年份
         # End year.
-        to_year: 2021
-        name: "Theme Miracle"
+        to_year: 2022
+        name: "jinan36"
 
     # 哀悼模式，网页黑白
     # Mourning mode, web page black and white
@@ -151,9 +151,9 @@ custom:
 index:
     # 名称
     # Name
-    name: "Theme Miracle"
+    name: "jinan36's BLOG"
     # Slogan
-    slogan: 一款简洁的单栏 Hexo 主题
+    slogan: 说一些废话的地方
 
     # 文章通过 `sticky` 排序
     # The posts are sorted by `sticky`
@@ -177,13 +177,13 @@ navbar:
     # 导航栏菜单，可自行增减.
     # Navigation bar menu.
     menu:
-        # 首页: /
-        # 归档: /archives/
+        首页: /
+        归档: /archives/
         # 分类: /categories/
         # 标签: /tags/
         # 说说: /talk/
         # 友链: /links/
-        # 关于: /about/
+        关于: /about/
         # ...
 
 
@@ -299,7 +299,7 @@ post:
     # 文末打赏
     # Donate
     donate:
-        enable: true
+        enable: false
         # 打赏文字
         text: "喜欢这篇文章？为什么不考虑打赏一下作者呢？"
         # 方式
@@ -327,11 +327,11 @@ comment:
     # Gitalk
     # See: https://github.com/gitalk/gitalk#options
     gitalk:
-        clientID: 
-        clientSecret: 
-        repo: 
-        owner: 
-        admin: ['name']
+        clientID: 278eb33298f805096c4b
+        clientSecret: d667660c25d1ebdee5c3d6ba758a227b0b5fe907
+        repo: jinan36/jinan36.github.io
+        owner: jinan36
+        admin: ['jinan36']
         language: zh-CN
         labels: ['Gitalk']
         perPage: 10
