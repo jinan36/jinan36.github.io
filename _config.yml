@@ -5,4 +5,5 @@ language: zh-CN
 
 permalink: :year/:month/:day/:title.html
 
-theme: hacker
+lang: zh-CN # 可选项，用与匹配语言文件
+theme: miracle # 指定主题
