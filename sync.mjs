@@ -39,7 +39,6 @@ for (const issue of issues) {
 
     const path = join(postsDir, `issue-${issue.number}.md`)
     const content = `${frontMatter.substring(1, frontMatter.length - 1)}\n;;;\n${issue.body}`;
-    console.log(content)
     await outputFile(path, content)
     console.log(`Generated ${basename(path)}`);
 }
