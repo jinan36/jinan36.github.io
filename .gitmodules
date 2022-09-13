@@ -3,4 +3,4 @@
 	url = https://github.com/xingrz/Hacker.git
 [submodule "themes/miracle"]
 	path = themes/miracle
-	url = https://github.com/hifun-team/hexo-theme-miracle.git
+	url = https://github.com/jinan36/hexo-theme-miracle.git
