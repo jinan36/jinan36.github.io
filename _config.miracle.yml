@@ -389,7 +389,7 @@ comment:
         repoID: R_kgDOH8cUBQ
         category: Announcements
         categoryID: DIC_kwDOH8cUBc4CRQLU
-        mapping: og:title
+        mapping: url
         strict: 1
         reactionsEnabled: 1
         emitMetadata: 0
