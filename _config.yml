@@ -8,3 +8,17 @@ permalink: :year/:month/:day/:title.html
 
 lang: zh-CN # 可选项，用与匹配语言文件
 theme: miracle # 指定主题
+
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:

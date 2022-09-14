@@ -184,6 +184,7 @@ navbar:
         # 说说: /talk/
         # 友链: /links/
         关于: /about.html
+        RSS: /atom.xml
         # ...
 
 
