@@ -7,7 +7,7 @@ url: https://jinan36.github.io/
 permalink: :year/:month/:day/:title.html
 
 lang: zh-CN # 可选项，用与匹配语言文件
-theme: miracle # 指定主题
+theme: hacker # 指定主题
 
 feed:
   enable: true
