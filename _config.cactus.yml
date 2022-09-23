@@ -5,7 +5,7 @@ nav:
   tag: /tags/
   category: /categories/
   articles: /archives/
-  about: /about.html
+  about: /about/
 
 posts_overview:
   show_all_posts: true
@@ -20,11 +20,11 @@ copyright:
   start_year: 2022
   end_year:
 
-rss: 
+rss:
 
 google_analytics:
   enabled: true
-  id: 'G-LL017RHM9G'
+  id: "G-LL017RHM9G"
 
 highlight: darkula
 
@@ -49,3 +49,17 @@ favicon:
 
 logo:
   enable: false
+
+giscus:
+  enabled: true
+  repo: jinan36/jinan36.github.io
+  repo_id: R_kgDOH8cUBQ
+  category: Announcements
+  category_id: DIC_kwDOH8cUBc4CRQLU
+  mapping: url
+  strict: 1
+  reactions_enabled: 1
+  emit_metadata: 0
+  input_position: top
+  theme: preferred_color_scheme
+  lang: zh-CN
