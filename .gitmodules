@@ -4,3 +4,6 @@
 [submodule "themes/miracle"]
 	path = themes/miracle
 	url = https://github.com/jinan36/hexo-theme-miracle.git
+[submodule "themes/cactus"]
+	path = themes/cactus
+	url = https://github.com/probberechts/hexo-theme-cactus.git
