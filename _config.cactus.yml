@@ -3,7 +3,6 @@ colorscheme: white
 nav:
   home: /
   tag: /tags/
-  category: /categories/
   articles: /archives/
   about: /about/
 
@@ -14,6 +13,7 @@ social_links:
   github: https://github.com/jinan36
   weibo: https://weibo.com/210127007
   bilibili: https://space.bilibili.com/19220486
+  zhihu: https://www.zhihu.com/people/zhuang-ji-nan-83
   rss: /atom.xml
 
 copyright:
